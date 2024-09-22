@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ticketing
+    username: ticketing-user
+    password: password
+  jpa:
+    hibernate:
+      # ddl-auto: create
+      ddl-auto: update
